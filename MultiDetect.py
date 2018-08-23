@@ -4,7 +4,7 @@ import numpy as np
 mat=np.genfromtxt("train.txt",dtype=str,delimiter=';')
 mat_x,mat_y=mat[:,0],mat[:,1]
 train_x,train_y=[],[]
-name=["YueBH","ZhaoRF","BaiQL"]
+name=["name1","name2","name3"]
 for i in mat_x:
     #print type(i)
     img=cv2.imread(i,0)
